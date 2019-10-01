@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import {TextInput, View, ImageBackground, Text, TouchableOpacity} from "react-native";
-import styles from "./Login.style";
-import loginService from "../../services/Login.service";
+import styles from "./LoginStyle";
+import loginService from "./LoginService";
 import Credentials from "../../models/Credentials";
 
 const IMAGE_URI = require("../../images/cover.jpg");

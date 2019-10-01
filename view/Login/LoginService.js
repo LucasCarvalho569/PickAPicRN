@@ -1,4 +1,4 @@
-import { axiosConfig as axios } from "../configs/axios.config";
+import { axiosConfig as axios } from "../../configs/axios.config";
 
 const login = (credentials) => {
     if (credentials.username && credentials.password) {
